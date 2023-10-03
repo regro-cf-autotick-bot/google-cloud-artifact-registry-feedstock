@@ -1,5 +1,5 @@
 {% set name = "google-cloud-artifact-registry" %}
-{% set version = "1.8.3" %}
+{% set version = "1.8.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-artifact-registry-{{ version }}.tar.gz
-  sha256: 9206d2c0647939b90c6eea78a7878f5e7c65eee467d2761e182394d4b30f6521
+  sha256: 2deba5c9c0065cf8e2e63c547e93a4921867d57261d57d4a756be1031529e228
 
 build:
   noarch: python
@@ -45,7 +45,7 @@ about:
   license: Apache-2.0
   license_file: LICENSE
   license_family: APACHE
-  
+
   doc_url: https://cloud.google.com/python/docs/reference/artifactregistry/latest
   dev_url: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-artifact-registry
 
